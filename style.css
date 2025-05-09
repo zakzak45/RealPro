@@ -125,8 +125,9 @@ section {
 }
 
 /*****SKILL SECTION*****/
-section .heading-text {
-    font-size: 2.8rem;
+.h1[heading-text] {
+    color: red;
+    font-size: 1.7rem;
     font-weight: 500;
     margin-right: 3.5rem;
 }
@@ -245,29 +246,8 @@ section .heading-text {
     animation: professionRotate 13s ease-out infinite;
 }
 
-@keyframes professionRotate {
-
-    0%,
-    20% {
-        transform: rotate(0deg);
-    }
-
-    30%,
-    45% {
-        transform: rotate(-90deg);
-    }
-
-    50%,
-    70% {
-        transform: rotate(-180deg);
-    }
 
 
-    75%,
-    100% {
-        transform: rotate(-360deg);
-    }
-}
 
 .home .profession-box .profession {
     position: absolute;
