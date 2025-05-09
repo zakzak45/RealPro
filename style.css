@@ -252,7 +252,7 @@ section .heading-text {
         transform: rotate(0deg);
     }
 
-    25%,
+    30%,
     45% {
         transform: rotate(-90deg);
     }
