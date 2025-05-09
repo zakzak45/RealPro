@@ -124,6 +124,38 @@ section {
     padding: 10rem 7% 2rem;
 }
 
+/*****SKILL SECTION*****/
+section .heading-text {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-right: 3.5rem;
+}
+
+.skill {
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.skill span {
+    float: right;
+}
+
+.skill div {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    background: #e7e7e7;
+    border-radius: 10px;
+}
+
+.skill div span {
+    background: #215cca;
+    height: 5px;
+    float: left;
+}
+
+
+
 .home {
     display: flex;
     align-items: center;
